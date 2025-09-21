@@ -62,6 +62,7 @@ This project is a complete pipeline for evaluating OMR sheets. It automates:
 ## File Structure
 ```
 OMR_EVALUATION_SYSTEM/
+├── frontend.py              # Main script to run the application
 ├── omr_core/
 │   ├── preprocessing.py
 │   ├── scoring.py
@@ -72,8 +73,7 @@ OMR_EVALUATION_SYSTEM/
 ├── uploads/
 │   ├── omr_sheets/          # Folder containing OMR answer sheet images
 │   └── answer_key.pdf       # PDF or Excel answer key
-├── static/                  # Output folder for plots, CSVs, and reports
-├── frontend.py              # Main script to run the application
+├── static/                  # Output folder for plots, CSVs, and reports             
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
@@ -98,6 +98,7 @@ This project was developed as part of an **Code4EdTech Hackathon** at **Innomati
 - [SriGowri Cheboyina](https://github.com/SriGowri05)
 - [Sandhya Nayini](https://github.com/Sandhya120727)
 - [Siliveri Vandhitha](https://github.com/vandhitha23)
+
 
 
 
